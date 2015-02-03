@@ -14,9 +14,15 @@
             "email": "packages@lucadegasperi.com"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/ym/oauth2-server"
+      }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "league/oauth2-server": "4.1.*",
+        "league/oauth2-server": "dev-master",
         "illuminate/database": "4.2.*",
         "illuminate/support": "4.2.*",
         "illuminate/filesystem": "4.2.*",
